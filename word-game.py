@@ -24,7 +24,7 @@ while i<l+3:
     b=input("\nEnter the letter ")
     if b in s:
         index=s.index(b)
-        #mylist[index]=b
+        mylist[index]=b
         e=''.join(mylist)
         print("~~~~~~Character is correct~~~~~~~")
         print(e)
